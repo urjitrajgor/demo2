@@ -1,0 +1,26 @@
+body{
+  background-color: skyblue;
+  margin: 15px 20px 15px 20px;
+  padding: 10px;
+  border: 2px dotted white;
+  color: brown;
+  font-size: 14px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+
+body a{
+  text-decoration: none;
+}
+
+body a:hover{
+  text-decoration: underline;
+  color: orange;
+  font-size: 14px;
+}
+h1{
+  background:url(../images/main-top-back.jpg) left top repeat-x;
+  
+}

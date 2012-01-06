@@ -1,0 +1,16 @@
+<%= @message %>
+<%= form_for(:login, :url => {:action => 'sign_in'}) do |k| %>
+  
+<div class="field">
+    <%= k.label :name %><br />
+    <%= k.text_field :name %>
+  </div>
+<div class="field">
+    <%= k.label :password %><br />
+    <%= k.password_field :password %>
+  </div>
+<div>
+  <%= k.submit %>
+</div>
+<%end%>
+
